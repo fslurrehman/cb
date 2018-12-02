@@ -1,0 +1,5 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Civil Builders"
+theme = "ananke"
+buildDrafts = true
