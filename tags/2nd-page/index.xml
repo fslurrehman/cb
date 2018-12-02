@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo on Civil Builders</title>
-    <link>/cb/tags/hugo/</link>
-    <description>Recent content in Hugo on Civil Builders</description>
+    <title>2nd Page on Civil Builders</title>
+    <link>/cb/tags/2nd-page/</link>
+    <description>Recent content in 2nd Page on Civil Builders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 02 Dec 2018 23:05:56 +0500</lastBuildDate>
     
-	<atom:link href="/cb/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/cb/tags/2nd-page/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>/cb/posts/my-second-post/</guid>
       <description>That&amp;rsquo;s my second post. Hope everything is ok by now.</description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>/cb/posts/my-first-post/</link>
-      <pubDate>Sun, 02 Dec 2018 22:16:18 +0500</pubDate>
-      
-      <guid>/cb/posts/my-first-post/</guid>
-      <description>This is a test page to check github page deployment and hugo site development. Let&amp;rsquo;s see!</description>
     </item>
     
   </channel>
