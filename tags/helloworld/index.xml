@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Civil Builders</title>
-    <link>http://civil.builders/post/</link>
-    <description>Recent content in Posts on Civil Builders</description>
+    <title>helloworld on Civil Builders</title>
+    <link>http://civil.builders/tags/helloworld/</link>
+    <description>Recent content in helloworld on Civil Builders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Civil.Builders</copyright>
     <lastBuildDate>Tue, 26 Feb 2019 01:27:24 +0500</lastBuildDate>
     
-	<atom:link href="http://civil.builders/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://civil.builders/tags/helloworld/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>

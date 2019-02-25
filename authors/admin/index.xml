@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>admin on Civil Builders</title>
-    <link>/authors/admin/</link>
+    <link>http://civil.builders/authors/admin/</link>
     <description>Recent content in admin on Civil Builders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Civil.Builders</copyright>
     <lastBuildDate>Tue, 26 Feb 2019 01:27:24 +0500</lastBuildDate>
     
-	<atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://civil.builders/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>HW</title>
-      <link>/post/hw/</link>
+      <link>http://civil.builders/post/hw/</link>
       <pubDate>Tue, 26 Feb 2019 01:27:24 +0500</pubDate>
       
-      <guid>/post/hw/</guid>
+      <guid>http://civil.builders/post/hw/</guid>
       <description>Hello World to my new blogpost which was formally named as enggprog.com. I was offline for few months.
 Whats new? Short answer is that its fast and under full control. Long answer is that this blog posts and the whole website is made with static html page. With wordpress, I had issues with speed of page loading. It was so much slow. Also very tough to optimize. Although wordpress is gnu project but it is very hard to manage through plugins and very very hard to modify its plugin.</description>
     </item>
     
     <item>
       <title></title>
-      <link>/author/admin/</link>
+      <link>http://civil.builders/author/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/author/admin/</guid>
+      <guid>http://civil.builders/author/admin/</guid>
       <description>Faisal Rehman is assitant professor. He is currently teaching Building Information Modeling. He is doing his PhD in Seismic Performance Evaulation of Adobe Structures.</description>
     </item>
     

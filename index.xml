@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Civil Builders on Civil Builders</title>
-    <link>/</link>
+    <link>http://civil.builders/</link>
     <description>Recent content in Civil Builders on Civil Builders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>HW</title>
-      <link>/post/hw/</link>
+      <link>http://civil.builders/post/hw/</link>
       <pubDate>Tue, 26 Feb 2019 01:27:24 +0500</pubDate>
       
-      <guid>/post/hw/</guid>
+      <guid>http://civil.builders/post/hw/</guid>
       <description>
 
 &lt;p&gt;Hello World to my new blogpost which was formally named as enggprog.com. I was offline for few months.&lt;/p&gt;
