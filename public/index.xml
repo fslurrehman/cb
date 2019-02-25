@@ -1,35 +1,37 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Civil Builders 01</title>
+    <title>Civil Builders on Civil Builders</title>
     <link>/</link>
-    <description>Recent content on Civil Builders 01</description>
+    <description>Recent content in Civil Builders on Civil Builders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Dec 2018 23:05:56 +0500</lastBuildDate>
-    
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>My Second Post</title>
-      <link>/posts/my-second-post/</link>
-      <pubDate>Sun, 02 Dec 2018 23:05:56 +0500</pubDate>
-      
-      <guid>/posts/my-second-post/</guid>
-      <description>That&amp;rsquo;s my second post. Hope everything is ok by now.
-First Heading This is first heading test.
-Second Heading This is second heading test.
-Third Heading This is third heading test. I got many ideas and singularity of all work I do including all my projects and teachings.</description>
-    </item>
+    <copyright>&amp;copy; Civil.Builders</copyright>
+    <lastBuildDate>Tue, 26 Feb 2019 01:27:24 +0500</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>My First Post</title>
-      <link>/posts/my-first-post/</link>
-      <pubDate>Sun, 02 Dec 2018 22:16:18 +0500</pubDate>
+      <title>HW</title>
+      <link>/post/hw/</link>
+      <pubDate>Tue, 26 Feb 2019 01:27:24 +0500</pubDate>
       
-      <guid>/posts/my-first-post/</guid>
-      <description>This is a test page to check github page deployment and hugo site development. Let&amp;rsquo;s see!</description>
+      <guid>/post/hw/</guid>
+      <description>
+
+&lt;p&gt;Hello World to my new blogpost which was formally named as enggprog.com. I was offline for few months.&lt;/p&gt;
+
+&lt;h3 id=&#34;whats-new&#34;&gt;Whats new?&lt;/h3&gt;
+
+&lt;p&gt;Short answer is that its fast and under full control. Long answer is that this blog posts and the whole website is made with static html page. With wordpress, I had issues with speed of page loading. It was so much slow. Also very tough to optimize. Although wordpress is gnu project but it is very hard to manage through plugins and very very hard to modify its plugin. Wordpress was quite bulky in size as well. It was full under control of automattic through its paid plugins.&lt;/p&gt;
+
+&lt;h3 id=&#34;how-to-find-old-posts-of-enggprog-com&#34;&gt;How to find Old Posts of enggprog.com?&lt;/h3&gt;
+
+&lt;p&gt;I will upload all old posts of enggprog.com with time. You can find old posts using &lt;a href=&#34;http://web.archive.org/&#34; target=&#34;_blank&#34;&gt;http://web.archive.org/&lt;/a&gt; or by asking me through email.&lt;/p&gt;
+
+&lt;h3 id=&#34;when-to-expect-full-contents-from-enggprog-com&#34;&gt;When to expect full contents from enggprog.com?&lt;/h3&gt;
+
+&lt;p&gt;I will upload all content back from my previous website on weekly basis with one post per week. Hopefully the performance of this website and blog will be the best, more interactive and fruitful.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

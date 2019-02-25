@@ -1,7 +1,7 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "Civil Builders 01"
-theme = "cbt"
+theme = "ananke"
 buildDrafts = true
 [taxonomies]
    tag = "tags"
