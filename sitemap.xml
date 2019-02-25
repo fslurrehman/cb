@@ -3,64 +3,64 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/cb/posts/my-second-post/</loc>
+    <loc>/posts/my-second-post/</loc>
     <lastmod>2018-12-02T23:05:56+05:00</lastmod>
   </url>
   
   <url>
-    <loc>/cb/posts/my-first-post/</loc>
+    <loc>/posts/my-first-post/</loc>
     <lastmod>2018-12-02T22:16:18+05:00</lastmod>
   </url>
   
   <url>
-    <loc>/cb/tags/2nd-page/</loc>
+    <loc>/tags/2nd-page/</loc>
     <lastmod>2018-12-02T23:05:56+05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/cb/categories/</loc>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/cb/</loc>
+    <loc>/</loc>
     <lastmod>2018-12-02T23:05:56+05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/cb/tags/first-page/</loc>
-    <lastmod>2018-12-02T22:16:18+05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/cb/tags/hello-world/</loc>
+    <loc>/tags/first-page/</loc>
     <lastmod>2018-12-02T22:16:18+05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/cb/tags/hugo/</loc>
+    <loc>/tags/hello-world/</loc>
+    <lastmod>2018-12-02T22:16:18+05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/hugo/</loc>
     <lastmod>2018-12-02T23:05:56+05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/cb/posts/</loc>
+    <loc>/posts/</loc>
     <lastmod>2018-12-02T23:05:56+05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/cb/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2018-12-02T23:05:56+05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/cb/categories/test/</loc>
+    <loc>/categories/test/</loc>
     <lastmod>2018-12-02T23:05:56+05:00</lastmod>
     <priority>0</priority>
   </url>

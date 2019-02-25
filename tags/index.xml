@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Civil Builders</title>
-    <link>/cb/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Civil Builders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 02 Dec 2018 23:05:56 +0500</lastBuildDate>
     
-	<atom:link href="/cb/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>2nd Page</title>
-      <link>/cb/tags/2nd-page/</link>
+      <link>/tags/2nd-page/</link>
       <pubDate>Sun, 02 Dec 2018 23:05:56 +0500</pubDate>
       
-      <guid>/cb/tags/2nd-page/</guid>
+      <guid>/tags/2nd-page/</guid>
       <description></description>
     </item>
     
     <item>
       <title>First Page</title>
-      <link>/cb/tags/first-page/</link>
+      <link>/tags/first-page/</link>
       <pubDate>Sun, 02 Dec 2018 22:16:18 +0500</pubDate>
       
-      <guid>/cb/tags/first-page/</guid>
+      <guid>/tags/first-page/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hello World</title>
-      <link>/cb/tags/hello-world/</link>
+      <link>/tags/hello-world/</link>
       <pubDate>Sun, 02 Dec 2018 22:16:18 +0500</pubDate>
       
-      <guid>/cb/tags/hello-world/</guid>
+      <guid>/tags/hello-world/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>/cb/tags/hugo/</link>
+      <link>/tags/hugo/</link>
       <pubDate>Sun, 02 Dec 2018 23:05:56 +0500</pubDate>
       
-      <guid>/cb/tags/hugo/</guid>
+      <guid>/tags/hugo/</guid>
       <description></description>
     </item>
     
