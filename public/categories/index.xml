@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Civil Builders</title>
+    <title>Categories on Civil Builders 01</title>
     <link>/categories/</link>
-    <description>Recent content in Categories on Civil Builders</description>
+    <description>Recent content in Categories on Civil Builders 01</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -13,7 +13,7 @@
     <item>
       <title>Test</title>
       <link>/categories/test/</link>
-      <pubDate>Sun, 02 Dec 2018 22:16:18 +0500</pubDate>
+      <pubDate>Sun, 02 Dec 2018 23:05:56 +0500</pubDate>
       
       <guid>/categories/test/</guid>
       <description></description>

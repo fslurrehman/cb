@@ -3,13 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/posts/my-secomd-post/</loc>
+    <loc>/posts/my-second-post/</loc>
     <lastmod>2018-12-02T23:05:56+05:00</lastmod>
   </url>
   
   <url>
     <loc>/posts/my-first-post/</loc>
     <lastmod>2018-12-02T22:16:18+05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/2nd-page/</loc>
+    <lastmod>2018-12-02T23:05:56+05:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -37,7 +43,7 @@
   
   <url>
     <loc>/tags/hugo/</loc>
-    <lastmod>2018-12-02T22:16:18+05:00</lastmod>
+    <lastmod>2018-12-02T23:05:56+05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -49,13 +55,13 @@
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2018-12-02T22:16:18+05:00</lastmod>
+    <lastmod>2018-12-02T23:05:56+05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/test/</loc>
-    <lastmod>2018-12-02T22:16:18+05:00</lastmod>
+    <lastmod>2018-12-02T23:05:56+05:00</lastmod>
     <priority>0</priority>
   </url>
   
