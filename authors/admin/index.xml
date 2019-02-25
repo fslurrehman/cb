@@ -7,9 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Civil.Builders</copyright>
+    <lastBuildDate>Tue, 26 Feb 2019 01:27:24 +0500</lastBuildDate>
     
 	<atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>HW</title>
+      <link>/post/hw/</link>
+      <pubDate>Tue, 26 Feb 2019 01:27:24 +0500</pubDate>
+      
+      <guid>/post/hw/</guid>
+      <description>Hello World to my new blogpost which was formally named as enggprog.com. I was offline for few months.
+Whats new? Short answer is that its fast and under full control. Long answer is that this blog posts and the whole website is made with static html page. With wordpress, I had issues with speed of page loading. It was so much slow. Also very tough to optimize. Although wordpress is gnu project but it is very hard to manage through plugins and very very hard to modify its plugin.</description>
+    </item>
     
     <item>
       <title></title>
