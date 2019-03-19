@@ -7,8 +7,181 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Civil.Builders</copyright>
-    <lastBuildDate>Tue, 26 Feb 2019 01:27:24 +0500</lastBuildDate>
+    <lastBuildDate>Tue, 19 Mar 2019 00:00:00 +0500</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>BIM Lectures</title>
+      <link>http://civil.builders/tutorial/bim-lectures/</link>
+      <pubDate>Tue, 19 Mar 2019 00:00:00 +0500</pubDate>
+      
+      <guid>http://civil.builders/tutorial/bim-lectures/</guid>
+      <description>
+
+&lt;p&gt;Building Information Modeling (BIM) defined as:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;&lt;em&gt;A digital representation of &lt;code&gt;physical&lt;/code&gt; and &lt;code&gt;functional&lt;/code&gt; characteristics of a facility. A BIM is a &lt;code&gt;shared knowledge resource&lt;/code&gt; for information about a facility forming a reliable basis for &lt;code&gt;decisions&lt;/code&gt; during its &lt;code&gt;life-cycle&lt;/code&gt;; defined as existing from earliest conception to demolition.&lt;/em&gt;&amp;ldquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;course-information&#34;&gt;Course Information:&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;right&#34;&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;Course Title:&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;CE-118L Building Information Modelling (BIM) Lab&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;Course Instructor:&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Engr. Faisal ur Rehman&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;Credit Hours:&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;Semester/year:&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;2&lt;sup&gt;nd&lt;/sup&gt;/1&lt;sup&gt;st&lt;/sup&gt; Year Spring 2019&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;Prerequisites:&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;None&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;Equivalent Courses:&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;None&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;assessment-weights&#34;&gt;Assessment Weights:&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;right&#34;&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;In-lab Assessment:&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;50%&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;Open Ended Lab (mini-project):&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;15%&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;Final Lab Viva:&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;35%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;course-aims&#34;&gt;Course Aims:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;To introduce students with the user interface and the basic building components of a BIM software (FreeCAD, xBIM toolkit, Autodesk Revit or any other BIM software covering this  course content).&lt;/li&gt;
+&lt;li&gt;To enable students use BIM software in creating simple and complex drawings and detailing, and designing buildings structures.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;h2 id=&#34;bim-lectures-by-dr-muhammad-adil&#34;&gt;BIM Lectures by Dr. Muhammad Adil&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Students can download BIM lectures of Dr. Muhammad Adil.&lt;/li&gt;
+&lt;li&gt;These lectures are useful if you want to learn more about BIM features from AutoRevit.&lt;/li&gt;
+&lt;li&gt;Click on this &lt;a href=&#34;https://sites.google.com/uetpeshawar.edu.pk/bimlab/home&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to visit Dr. Muhammad Adil&amp;rsquo;s BIM Course webpage.&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;course-contents&#34;&gt;Course Contents:&lt;/h2&gt;
+
+&lt;p&gt;Click this &lt;a href=&#34;https://github.com/fslurrehman/BIM-Lectures/raw/master/Course%20Outline/CE118L%20BIM%20course.docx&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to download course content. It contains following items:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Weekly Distribution of Course.&lt;/li&gt;
+&lt;li&gt;Class Learning Objectives (CLO) and Program Learning Objectives (PLO).&lt;/li&gt;
+&lt;li&gt;Rubrics for:
+
+&lt;ul&gt;
+&lt;li&gt;In-lab Assessment&lt;/li&gt;
+&lt;li&gt;Open Ended Lab (mini-project)&lt;/li&gt;
+&lt;li&gt;Final Viva-Voce&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;open-ended-lab-mini-project&#34;&gt;Open Ended Lab (Mini-Project):&lt;/h2&gt;
+
+&lt;p&gt;Click this &lt;a href=&#34;https://github.com/fslurrehman/BIM-Lectures/raw/master/Course%20Outline/Spring%202019%20CE118L%20BIM%20OEL.docx&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to download information regarding mini-project.&lt;/p&gt;
+
+&lt;h2 id=&#34;recommended-books&#34;&gt;Recommended Books:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/fslurrehman/BIM-Lectures/raw/master/Course-Book/bim-guide.pdf&#34; target=&#34;_blank&#34;&gt;BIM Guide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/fslurrehman/BIM-Lectures/blob/master/Course-Book/a-freecad-manual.pdf&#34; target=&#34;_blank&#34;&gt;A FreeCAD Manual&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;downloads&#34;&gt;Downloads:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Software Download
+
+&lt;ul&gt;
+&lt;li&gt;You can download FreeCAD from &lt;a href=&#34;https://www.freecadweb.org/&#34; target=&#34;_blank&#34;&gt;https://www.freecadweb.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;lecture-01-intro&#34;&gt;Lecture 01 - Intro:&lt;/h2&gt;
+
+&lt;p&gt;Lecture 01 is about introduction to BIM. It contains basic definitions, explanation and uses of BIM. Click on &lt;a href=&#34;https://github.com/fslurrehman/BIM-Lectures/raw/master/lecture01/lecture%2001.pptx&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to download lecture 01. Student is required to note his/her classwork in a dedicated mini-project copy and bring laptop for practice work. Student shall write summary of lecture and email it to me.&lt;/p&gt;
+
+&lt;h2 id=&#34;lecture-02-2d-drafting-and-modify-tools&#34;&gt;Lecture 02 - 2D Drafting and Modify tools:&lt;/h2&gt;
+
+&lt;p&gt;Lecture 02 is about familiarizing ourselves with interface of FreeCAD. It explains few commands from 2D Drafting and Modify toolbar. You can download its tutorial from this &lt;a href=&#34;https://github.com/fslurrehman/BIM-Lectures/raw/master/lecture02/Steps%20for%202Drafting%20and%20Modifying%20toolbar.docx&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt;. Student shall write summary of lecture and email it to me.&lt;/p&gt;
+
+&lt;h2 id=&#34;lecture-03-setting-up-levels-and-grids&#34;&gt;Lecture 03 - Setting up Levels and Grids:&lt;/h2&gt;
+
+&lt;p&gt;Lecture 03 explains further how to work in freeCAD using draft workbench. It explains traditional 2D drafting tutorial from FreeCAD manual (page 64-79). You can download its elaborated and more helpful steps from this &lt;a href=&#34;https://github.com/fslurrehman/BIM-Lectures/raw/master/lecture03/Steps%20for%20Working%20with%20Draft%20Workbench.docx&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt;
+You can download its helpful files from my &lt;a href=&#34;https://github.com/fslurrehman/BIM-Lectures/tree/master/lecture03/lab-3-freecad-files&#34; target=&#34;_blank&#34;&gt;github repo for this course&lt;/a&gt;. Lecture 03 is in progress. Further explanation for levels and gridviews will be added later on. Student shall write summary of lecture and email it to me.&lt;/p&gt;
+
+&lt;h2 id=&#34;lecture-04-working-with-views&#34;&gt;Lecture 04 - Working with Views:&lt;/h2&gt;
+
+&lt;p&gt;Lecture 04 is about further working with BIM tool and practicing tasks related to modifying BIM Objects. Currently an introductory tutorial is covered. This tutorial can be downloaded from this &lt;a href=&#34;https://github.com/fslurrehman/BIM-Lectures/raw/master/lecture04/BIM%20ingame%20tutorial.pdf&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt;. Student shall write summary of lecture and email it to me.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;In Class Activity:
+
+&lt;ul&gt;
+&lt;li&gt;Demonstration:
+Student is required to show two walls and a slab using BIM toolbar of freeCAD.&lt;/li&gt;
+&lt;li&gt;Lab Work
+Student shall setup BIM Workbench. Student shall familiarize him/herself with BIM Workbench tools. Student shall perform in-game tutorial attached with this lecture. Edit drawn feature.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>HW</title>
@@ -32,6 +205,33 @@
 
 &lt;p&gt;I will upload all content back from my previous website on weekly basis with one post per week. Hopefully the performance of this website and blog will be the best, more interactive and fruitful.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Cost Optimization for Concrete Footing</title>
+      <link>http://civil.builders/publication/cost-optimization-for-concrete-footing/</link>
+      <pubDate>Sun, 01 Jul 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://civil.builders/publication/cost-optimization-for-concrete-footing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Water Treatment Plant Design</title>
+      <link>http://civil.builders/publication/water-treatment-plant-design/</link>
+      <pubDate>Wed, 30 Nov 2011 11:00:00 +0000</pubDate>
+      
+      <guid>http://civil.builders/publication/water-treatment-plant-design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bentonite in Mortars and Concrete</title>
+      <link>http://civil.builders/publication/bentonite-in-mortars-and-concrete/</link>
+      <pubDate>Sat, 13 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://civil.builders/publication/bentonite-in-mortars-and-concrete/</guid>
+      <description></description>
     </item>
     
   </channel>

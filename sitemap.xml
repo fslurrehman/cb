@@ -4,6 +4,22 @@
     
     <url>
     
+      <loc>http://civil.builders/tutorial/bim-lectures/</loc>
+      <lastmod>2019-03-20T00:00:00+05:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://civil.builders/tutorial/</loc>
+      <lastmod>2019-03-19T00:00:00+05:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>http://civil.builders/post/hw/</loc>
       <lastmod>2019-02-26T01:27:24+05:00</lastmod>
     </url>
@@ -12,7 +28,67 @@
     
     <url>
     
+      <loc>http://civil.builders/publication/cost-optimization-for-concrete-footing/</loc>
+      <lastmod>2012-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://civil.builders/publication/water-treatment-plant-design/</loc>
+      <lastmod>2011-11-30T11:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://civil.builders/publication/bentonite-in-mortars-and-concrete/</loc>
+      <lastmod>2009-06-13T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>http://civil.builders/author/admin/</loc>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://civil.builders/publication_types/1/</loc>
+      <lastmod>2011-11-30T11:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://civil.builders/publication_types/2/</loc>
+      <lastmod>2012-07-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://civil.builders/authors/a-naseer/</loc>
+      <lastmod>2009-06-13T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://civil.builders/authors/an-khan/</loc>
+      <lastmod>2009-06-13T00:00:00+00:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -28,6 +104,34 @@
     <url>
     
       <loc>http://civil.builders/authors/</loc>
+      <lastmod>2009-06-13T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://civil.builders/authors/bashir-alam/</loc>
+      <lastmod>2012-07-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://civil.builders/tags/bentonite/</loc>
+      <lastmod>2009-06-13T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://civil.builders/tags/box-complex-method/</loc>
+      <lastmod>2012-07-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -44,7 +148,178 @@
     <url>
     
       <loc>http://civil.builders/</loc>
-      <lastmod>2019-02-26T01:27:24+05:00</lastmod>
+      <lastmod>2019-03-20T00:00:00+05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://civil.builders/tags/combined-footing/</loc>
+      <lastmod>2012-07-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://civil.builders/tags/computer-program/</loc>
+      <lastmod>2011-11-30T11:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://civil.builders/tags/computer-software/</loc>
+      <lastmod>2012-07-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://civil.builders/tags/concrete/</loc>
+      <lastmod>2009-06-13T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://civil.builders/tags/cost-optimization/</loc>
+      <lastmod>2012-07-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://civil.builders/authors/daulat-khan/</loc>
+      <lastmod>2011-11-30T11:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://civil.builders/tags/design/</loc>
+      <lastmod>2012-07-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://civil.builders/authors/f-rehman/</loc>
+      <lastmod>2009-06-13T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://civil.builders/authors/faisal-rehman/</loc>
+      <lastmod>2011-11-30T11:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://civil.builders/authors/faisal-ur-rehman/</loc>
+      <lastmod>2012-07-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://civil.builders/authors/j-mirza/</loc>
+      <lastmod>2009-06-13T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://civil.builders/authors/khan-shahzada/</loc>
+      <lastmod>2012-07-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://civil.builders/authors/m-riaz/</loc>
+      <lastmod>2009-06-13T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://civil.builders/tags/mechanical-properties/</loc>
+      <lastmod>2009-06-13T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://civil.builders/tags/modeling/</loc>
+      <lastmod>2012-07-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://civil.builders/tags/mortar/</loc>
+      <lastmod>2009-06-13T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://civil.builders/authors/muhammad-rizwan/</loc>
+      <lastmod>2012-07-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://civil.builders/authors/noreema-masud/</loc>
+      <lastmod>2012-07-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://civil.builders/tags/ordinary-portland-cement/</loc>
+      <lastmod>2009-06-13T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -61,6 +336,7 @@
     <url>
     
       <loc>http://civil.builders/publication_types/</loc>
+      <lastmod>2011-11-30T11:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -69,6 +345,16 @@
     <url>
     
       <loc>http://civil.builders/publication/</loc>
+      <lastmod>2012-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://civil.builders/authors/q-ali/</loc>
+      <lastmod>2009-06-13T00:00:00+00:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -82,7 +368,35 @@
     
     <url>
     
+      <loc>http://civil.builders/tags/reinforced-concrete/</loc>
+      <lastmod>2012-07-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://civil.builders/authors/tabinda-masud/</loc>
+      <lastmod>2012-07-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>http://civil.builders/tags/</loc>
+      <lastmod>2009-06-13T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://civil.builders/tags/water-treatment-plant/</loc>
+      <lastmod>2011-11-30T11:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

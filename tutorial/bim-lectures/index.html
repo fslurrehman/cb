@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.0.0">
+  <meta name="generator" content="Hugo 0.54.0" />
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Faisal Rehman">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Building Information Modeling (BIM) defined as:
+ &ldquo;A digital representation of physical and functional characteristics of a facility. A BIM is a shared knowledge resource for information about a facility forming a reliable basis for decisions during its life-cycle; defined as existing from earliest conception to demolition.&ldquo;
+ Course Information:          Course Title: CE-118L Building Information Modelling (BIM) Lab   Course Instructor: Engr.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="http://civil.builders/tutorial/bim-lectures/">
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
+  
+
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+  
+  
+
+  
+  <link rel="alternate" href="http://civil.builders/index.xml" type="application/rss+xml" title="Civil Builders">
+  <link rel="feed" href="http://civil.builders/index.xml" type="application/rss+xml" title="Civil Builders">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="http://civil.builders/tutorial/bim-lectures/">
+
+  
+  
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@enggprog">
+  <meta property="twitter:creator" content="@enggprog">
+  
+  <meta property="og:site_name" content="Civil Builders">
+  <meta property="og:url" content="http://civil.builders/tutorial/bim-lectures/">
+  <meta property="og:title" content="BIM Lectures | Civil Builders">
+  <meta property="og:description" content="Building Information Modeling (BIM) defined as:
+ &ldquo;A digital representation of physical and functional characteristics of a facility. A BIM is a shared knowledge resource for information about a facility forming a reliable basis for decisions during its life-cycle; defined as existing from earliest conception to demolition.&ldquo;
+ Course Information:          Course Title: CE-118L Building Information Modelling (BIM) Lab   Course Instructor: Engr."><meta property="og:image" content="http://civil.builders/img/icon-192.png">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2019-03-19T00:00:00&#43;05:00">
+  
+  <meta property="article:modified_time" content="2019-03-20T00:00:00&#43;05:00">
+  
+
+  
+
+  
+
+  <title>BIM Lectures | Civil Builders</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/"><img src="/img/logo.png" alt="Civil Builders"></a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#publications_featured">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#posts">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#projects">
+            
+            <span>Projects</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/tutorial/">
+            
+            <span>Tutorials</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/files/faisalcv1.pdf">
+            
+            <span>CV</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      
+
+
+
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  
+  <input name="q" type="search" class="form-control" id="search-query" placeholder="Search..." autocomplete="off">
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/tutorial/">Overview</a>
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/tutorial/bim-lectures/">BIM Lectures</a>
+    <ul class="nav docs-sidenav">
+      
+      <li class="active">
+        <a href="/tutorial/bim-lectures/">BIM Course</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  
+</nav>
+
+    </div>
+
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      
+      <p class="docs-toc-title">On this page</p>
+      
+
+      <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#course-information">Course Information:</a></li>
+<li><a href="#assessment-weights">Assessment Weights:</a></li>
+<li><a href="#course-aims">Course Aims:</a></li>
+<li><a href="#course-contents">Course Contents:</a></li>
+<li><a href="#open-ended-lab-mini-project">Open Ended Lab (Mini-Project):</a></li>
+<li><a href="#recommended-books">Recommended Books:</a></li>
+<li><a href="#downloads">Downloads:</a></li>
+<li><a href="#lecture-01-intro">Lecture 01 - Intro:</a></li>
+<li><a href="#lecture-02-2d-drafting-and-modify-tools">Lecture 02 - 2D Drafting and Modify tools:</a></li>
+<li><a href="#lecture-03-setting-up-levels-and-grids">Lecture 03 - Setting up Levels and Grids:</a></li>
+<li><a href="#lecture-04-working-with-views">Lecture 04 - Working with Views:</a></li>
+</ul></li>
+</ul>
+</nav>
+
+      <ul class="nav toc-top">
+        <li><a href="#">Back to top</a></li>
+      </ul>
+
+      
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article" itemscope itemtype="http://schema.org/Article">
+
+        <div class="docs-article-container">
+          <h1 itemprop="name">BIM Lectures</h1>
+
+          <div class="article-style" itemprop="articleBody">
+            
+
+<p>Building Information Modeling (BIM) defined as:</p>
+
+<blockquote>
+<p>&ldquo;<em>A digital representation of <code>physical</code> and <code>functional</code> characteristics of a facility. A BIM is a <code>shared knowledge resource</code> for information about a facility forming a reliable basis for <code>decisions</code> during its <code>life-cycle</code>; defined as existing from earliest conception to demolition.</em>&ldquo;</p>
+</blockquote>
+
+<h2 id="course-information">Course Information:</h2>
+
+<table>
+<thead>
+<tr>
+<th align="right"></th>
+<th align="left"></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="right">Course Title:</td>
+<td align="left">CE-118L Building Information Modelling (BIM) Lab</td>
+</tr>
+
+<tr>
+<td align="right">Course Instructor:</td>
+<td align="left">Engr. Faisal ur Rehman</td>
+</tr>
+
+<tr>
+<td align="right">Credit Hours:</td>
+<td align="left">1</td>
+</tr>
+
+<tr>
+<td align="right">Semester/year:</td>
+<td align="left">2<sup>nd</sup>/1<sup>st</sup> Year Spring 2019</td>
+</tr>
+
+<tr>
+<td align="right">Prerequisites:</td>
+<td align="left">None</td>
+</tr>
+
+<tr>
+<td align="right">Equivalent Courses:</td>
+<td align="left">None</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="assessment-weights">Assessment Weights:</h2>
+
+<table>
+<thead>
+<tr>
+<th align="right"></th>
+<th align="left"></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="right">In-lab Assessment:</td>
+<td align="left">50%</td>
+</tr>
+
+<tr>
+<td align="right">Open Ended Lab (mini-project):</td>
+<td align="left">15%</td>
+</tr>
+
+<tr>
+<td align="right">Final Lab Viva:</td>
+<td align="left">35%</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="course-aims">Course Aims:</h2>
+
+<ul>
+<li>To introduce students with the user interface and the basic building components of a BIM software (FreeCAD, xBIM toolkit, Autodesk Revit or any other BIM software covering this  course content).</li>
+<li>To enable students use BIM software in creating simple and complex drawings and detailing, and designing buildings structures.</li>
+</ul>
+
+<div class="alert alert-note">
+  <div>
+    <h2 id="bim-lectures-by-dr-muhammad-adil">BIM Lectures by Dr. Muhammad Adil</h2>
+
+<ul>
+<li>Students can download BIM lectures of Dr. Muhammad Adil.</li>
+<li>These lectures are useful if you want to learn more about BIM features from AutoRevit.</li>
+<li>Click on this <a href="https://sites.google.com/uetpeshawar.edu.pk/bimlab/home" target="_blank">link</a> to visit Dr. Muhammad Adil&rsquo;s BIM Course webpage.<br /></li>
+</ul>
+
+  </div>
+</div>
+
+
+<h2 id="course-contents">Course Contents:</h2>
+
+<p>Click this <a href="https://github.com/fslurrehman/BIM-Lectures/raw/master/Course%20Outline/CE118L%20BIM%20course.docx" target="_blank">link</a> to download course content. It contains following items:</p>
+
+<ul>
+<li>Weekly Distribution of Course.</li>
+<li>Class Learning Objectives (CLO) and Program Learning Objectives (PLO).</li>
+<li>Rubrics for:
+
+<ul>
+<li>In-lab Assessment</li>
+<li>Open Ended Lab (mini-project)</li>
+<li>Final Viva-Voce</li>
+</ul></li>
+</ul>
+
+<h2 id="open-ended-lab-mini-project">Open Ended Lab (Mini-Project):</h2>
+
+<p>Click this <a href="https://github.com/fslurrehman/BIM-Lectures/raw/master/Course%20Outline/Spring%202019%20CE118L%20BIM%20OEL.docx" target="_blank">link</a> to download information regarding mini-project.</p>
+
+<h2 id="recommended-books">Recommended Books:</h2>
+
+<ul>
+<li><a href="https://github.com/fslurrehman/BIM-Lectures/raw/master/Course-Book/bim-guide.pdf" target="_blank">BIM Guide</a></li>
+<li><a href="https://github.com/fslurrehman/BIM-Lectures/blob/master/Course-Book/a-freecad-manual.pdf" target="_blank">A FreeCAD Manual</a></li>
+</ul>
+
+<h2 id="downloads">Downloads:</h2>
+
+<ul>
+<li>Software Download
+
+<ul>
+<li>You can download FreeCAD from <a href="https://www.freecadweb.org/" target="_blank">https://www.freecadweb.org/</a></li>
+</ul></li>
+</ul>
+
+<h2 id="lecture-01-intro">Lecture 01 - Intro:</h2>
+
+<p>Lecture 01 is about introduction to BIM. It contains basic definitions, explanation and uses of BIM. Click on <a href="https://github.com/fslurrehman/BIM-Lectures/raw/master/lecture01/lecture%2001.pptx" target="_blank">link</a> to download lecture 01. Student is required to note his/her classwork in a dedicated mini-project copy and bring laptop for practice work. Student shall write summary of lecture and email it to me.</p>
+
+<h2 id="lecture-02-2d-drafting-and-modify-tools">Lecture 02 - 2D Drafting and Modify tools:</h2>
+
+<p>Lecture 02 is about familiarizing ourselves with interface of FreeCAD. It explains few commands from 2D Drafting and Modify toolbar. You can download its tutorial from this <a href="https://github.com/fslurrehman/BIM-Lectures/raw/master/lecture02/Steps%20for%202Drafting%20and%20Modifying%20toolbar.docx" target="_blank">link</a>. Student shall write summary of lecture and email it to me.</p>
+
+<h2 id="lecture-03-setting-up-levels-and-grids">Lecture 03 - Setting up Levels and Grids:</h2>
+
+<p>Lecture 03 explains further how to work in freeCAD using draft workbench. It explains traditional 2D drafting tutorial from FreeCAD manual (page 64-79). You can download its elaborated and more helpful steps from this <a href="https://github.com/fslurrehman/BIM-Lectures/raw/master/lecture03/Steps%20for%20Working%20with%20Draft%20Workbench.docx" target="_blank">link</a>
+You can download its helpful files from my <a href="https://github.com/fslurrehman/BIM-Lectures/tree/master/lecture03/lab-3-freecad-files" target="_blank">github repo for this course</a>. Lecture 03 is in progress. Further explanation for levels and gridviews will be added later on. Student shall write summary of lecture and email it to me.</p>
+
+<h2 id="lecture-04-working-with-views">Lecture 04 - Working with Views:</h2>
+
+<p>Lecture 04 is about further working with BIM tool and practicing tasks related to modifying BIM Objects. Currently an introductory tutorial is covered. This tutorial can be downloaded from this <a href="https://github.com/fslurrehman/BIM-Lectures/raw/master/lecture04/BIM%20ingame%20tutorial.pdf" target="_blank">link</a>. Student shall write summary of lecture and email it to me.</p>
+
+<ul>
+<li>In Class Activity:
+
+<ul>
+<li>Demonstration:
+Student is required to show two walls and a slab using BIM toolbar of freeCAD.</li>
+<li>Lab Work
+Student shall setup BIM Workbench. Student shall familiarize him/herself with BIM Workbench tools. Student shall perform in-game tutorial attached with this lecture. Edit drawn feature.</li>
+</ul></li>
+</ul>
+
+          </div>
+
+          
+
+        </div>
+
+        <div class="body-footer">
+          Last updated on Mar 20, 2019
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; Civil.Builders &middot; 
+
+    Powered by the
+    <a href="" target="_blank" rel="noopener">Civil Builders</a>
+   
+    
+  </p>
+</footer>
+
+
+    </main>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.109caa4f51ff39522c6dfc25fb05b6e9.js"></script>
+
+  </body>
+</html>
+
+

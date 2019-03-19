@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>M Riaz on Civil Builders</title>
+    <link>http://civil.builders/authors/m-riaz/</link>
+    <description>Recent content in M Riaz on Civil Builders</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Civil.Builders</copyright>
+    <lastBuildDate>Sat, 13 Jun 2009 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://civil.builders/authors/m-riaz/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bentonite in Mortars and Concrete</title>
+      <link>http://civil.builders/publication/bentonite-in-mortars-and-concrete/</link>
+      <pubDate>Sat, 13 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://civil.builders/publication/bentonite-in-mortars-and-concrete/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

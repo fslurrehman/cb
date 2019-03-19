@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Overview on Civil Builders</title>
+    <link>http://civil.builders/tutorial/</link>
+    <description>Recent content in Overview on Civil Builders</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Civil.Builders</copyright>
+    <lastBuildDate>Tue, 19 Mar 2019 00:00:00 +0500</lastBuildDate>
+    
+	<atom:link href="http://civil.builders/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>BIM Lectures</title>
+      <link>http://civil.builders/tutorial/bim-lectures/</link>
+      <pubDate>Tue, 19 Mar 2019 00:00:00 +0500</pubDate>
+      
+      <guid>http://civil.builders/tutorial/bim-lectures/</guid>
+      <description>Building Information Modeling (BIM) defined as:
+ &amp;ldquo;A digital representation of physical and functional characteristics of a facility. A BIM is a shared knowledge resource for information about a facility forming a reliable basis for decisions during its life-cycle; defined as existing from earliest conception to demolition.&amp;ldquo;
+ Course Information:          Course Title: CE-118L Building Information Modelling (BIM) Lab   Course Instructor: Engr.</description>
+    </item>
+    
+  </channel>
+</rss>

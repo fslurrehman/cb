@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Muhammad Rizwan on Civil Builders</title>
+    <link>http://civil.builders/authors/muhammad-rizwan/</link>
+    <description>Recent content in Muhammad Rizwan on Civil Builders</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Civil.Builders</copyright>
+    <lastBuildDate>Sun, 01 Jul 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://civil.builders/authors/muhammad-rizwan/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cost Optimization for Concrete Footing</title>
+      <link>http://civil.builders/publication/cost-optimization-for-concrete-footing/</link>
+      <pubDate>Sun, 01 Jul 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://civil.builders/publication/cost-optimization-for-concrete-footing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Water Treatment Plant Design</title>
+      <link>http://civil.builders/publication/water-treatment-plant-design/</link>
+      <pubDate>Wed, 30 Nov 2011 11:00:00 +0000</pubDate>
+      
+      <guid>http://civil.builders/publication/water-treatment-plant-design/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
