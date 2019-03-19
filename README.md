@@ -1,52 +1,60 @@
-# Academic Kickstart
+#Welcome to the source code of http://civil.builders website.
 
-**Academic** is a framework to help you create a beautiful website quickly. Perfect for personal, student, or academic websites. [Check out the latest demo](https://academic-demo.netlify.com/) of what you'll get in less than 10 minutes or [view the documentation](https://sourcethemes.com/academic/docs/).
+Following guide will show how to reproduce my website. You can edit it with your own need. It is made in hugo static page engine with academic theme. Go through following steps to reproduce this website:
 
-**Academic Kickstart** provides a minimal template to kickstart your new website by following the simple steps below.
+## Hugo
 
-[![Screenshot](https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png)](https://github.com/gcushen/hugo-academic/)
+Steps for windows:
+Install scoop in powershell then install hugo as:
+to install hugo:
+ scoop install hugo
+to update hugo:
+ scoop update hugo
 
-## Getting Started
+ 
+ 
+## Github commands for hugo
 
-The following two methods describe how to install in the cloud using your web browser and how to install on your PC using the Command Prompt/Terminal app.
+01. First there is need to create github repo
+02. Upload your hugo website to that repo
+03. Then better to create github branch named gh-pages. 
+04. Then create site page from settings of the branch. i.e., name.github.io/reponame
+05. Optionally you can assign domain name by adding a file CNAME in the gh-pages, which contains domain name e.g., example.com.
+06. Goto your DNS Manager page and change A record to 192.30.252.153 and www to    
 
-### Quick install using your web browser
+`cd ..
+hugo server
+del public/*
+hugo
+cd public`
 
-1. [Install Academic with Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/sourcethemes/academic-kickstart)
-    * Netlify will provide you with a customizable URL to access your new site
-2. On GitHub, go to your newly created `academic-kickstart` repository and edit `config.toml` to personalize your site. Shortly after saving the file, your site will automatically update
-3. Read the [Quick Start Guide](https://sourcethemes.com/academic/docs/) to learn how to add Markdown content. For inspiration, refer to the [Markdown content](https://github.com/gcushen/hugo-academic/tree/master/exampleSite) which powers the [Demo](https://academic-demo.netlify.com/)
+`git add --all
+git commit -m "toc test check" 
+git push origin gh-pages`
 
-### Install on your PC
 
-Prerequisites:
 
-* [Download and install Git](https://git-scm.com/downloads)
-* [Download and install Hugo](https://gohugo.io/getting-started/installing/#quick-install)
+You can use below steps for publishing on github is taken from https://discourse.gohugo.io/t/simple-deployment-to-gh-pages/5003:
 
-1. Clone (or [Fork](https://github.com/sourcethemes/academic-kickstart#fork-destination-box) or [download](https://github.com/sourcethemes/academic-kickstart/archive/master.zip)) the *Academic Kickstart* repository with Git: 
+---start----
 
-       git clone https://github.com/sourcethemes/academic-kickstart.git My_Website
-    
-    *Note that if you forked Academic Kickstart, the above command should be edited to clone your fork.*
+`# remove previous publication
+rm -rf public
+mkdir public
 
-2. Initialize the theme:
-
-       cd My_Website
-       git submodule update --init --recursive
-
-3. View your new website:
-      
-       hugo server
-
-    Now you can go to [localhost:1313](http://localhost:1313) and your new Academic powered website should appear.
+# clone gh-pages branch from the local repo into a repo located within "public"
+git clone .git --branch gh-pages public
   
-4. Read the [Quick Start Guide](https://sourcethemes.com/academic/docs/) to learn how to add Markdown content, customize your site, and deploy it.
+# generate
+hugo
+  
+# commit the changes in the clone and push them back to the local gh-pages branch    
+cd public && git add --all && git commit -m "Publishing to gh-pages" && git push origin gh-pages
 
-## License
+# publish
+git push upstream gh-pages`
 
-Copyright 2017 [George Cushen](https://georgecushen.com).
 
-Released under the [MIT](https://github.com/sourcethemes/academic-kickstart/blob/master/LICENSE.md) license.
+---end---
 
-[![Analytics](https://ga-beacon.appspot.com/UA-78646709-2/academic-kickstart/readme?pixel)](https://github.com/igrigorik/ga-beacon)
+Lisence: GNU/GPL V2.0 
