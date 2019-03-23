@@ -1,6 +1,7 @@
 # Welcome to the source code of http://civil.builders website.
 
-You can edit it with your own need. It is made in hugo static page engine with academic theme. Download this repo and use hugo to update this site as per your requirements or to continue this site from your repo and domain name. Following are some guide for publishing hugo sites:
+You can edit it to suit need. It is made in hugo static page engine with academic theme. Download this repo and use hugo to update this site as per your requirements 
+or to continue this site from your repo and domain name. Following are some guidelines for publishing hugo sites:
 
 
 ## Hugo
@@ -63,7 +64,7 @@ To publish:
 
 
 
-## Adding user comments feature to hugo
+## Adding feature of user comments by using github comments:
 Following steps are taken from http://donw.io/post/github-comments/
 01. Add in the begining of your hugo post: `ghcommentid = 1`
 02. Backup existing comments.html and add comments.html to layouts/partials/ inside theme folder. You can copy the required file from mentioned path. Following is the code of comments.html:
