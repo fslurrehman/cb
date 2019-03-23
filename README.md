@@ -63,7 +63,8 @@ git push upstream gh-pages`
 03. Add github-comments.js to static/js folder inside theme folder. You can copy the required file from mentioned path.
 04. Add `{{ partial "comments.html" . }}` before </article> tag in  layouts/partials/docs_layout.html.
 05. Add css styles for comments in css file of the theme. It shall contain following code:
-   `#gh-comments {
+   ```css
+   #gh-comments {
    text-align: center;
    }
    
@@ -88,7 +89,7 @@ git push upstream gh-pages`
    vertical-align: middle;
    margin: 2px 10px 2px 2px;
    }
-`
+   ```
 
 
 
