@@ -36,7 +36,7 @@ git push origin gh-pages`
 
 You can use below steps for publishing on github is taken from https://discourse.gohugo.io/t/simple-deployment-to-gh-pages/5003:
 
----start----
+
 
 `# remove previous publication
 rm -rf public
@@ -55,11 +55,10 @@ cd public && git add --all && git commit -m "Publishing to gh-pages" && git push
 git push upstream gh-pages`
 
 
----end---
 
 
 ## Adding comments to hugo
-01. Add in the begining of your hugo post: ghcommentid = 1
+01. Add in the begining of your hugo post: `ghcommentid = 1`
 02. Backup existing comments.html and add comments.html to layouts/partials/ inside theme folder. It shall contain following lines:
    `{{ if $.Params.ghcommentid}}
 <section id="gh-comments">
@@ -73,14 +72,13 @@ git push upstream gh-pages`
 <!--script type="text/javascript" src="{{ .Site.BaseURL }}js/github-comments.js"></script> -->
 <script type="text/javascript" src="{{ .Site.BaseURL }}js/github-comments.js"></script>
 <script type="text/javascript">
-   //DoGithubComments("fslurrehman/BIM-Lectures",{{ $.Params.ghcommentid }});
-   DoGithubComments("dwilliamson/donw.io",{{ $.Params.ghcommentid }});
+   DoGithubComments("fslurrehman/BIM-Lectures",{{ $.Params.ghcommentid }});
+   //DoGithubComments("dwilliamson/donw.io",{{ $.Params.ghcommentid }});
    
    
 </script>
 {{else}}
-{{end}}
-`
+{{end}}`
 03. Add github-comments.js to static/js folder inside theme folder. It shall contain following code:
    `/*Function def for more comment pages*/
 	function ParseLinkHeader(link)
