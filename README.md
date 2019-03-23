@@ -62,7 +62,8 @@ To publish:
 
 
 
-## Adding comments to hugo
+## Adding user comments feature to hugo
+Following steps are taken from `http://donw.io/post/github-comments/`
 01. Add in the begining of your hugo post: `ghcommentid = 1`
 02. Backup existing comments.html and add comments.html to layouts/partials/ inside theme folder. You can copy the required file from mentioned path. Following is the code of comments.html:
    ```html
