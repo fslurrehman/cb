@@ -214,4 +214,4 @@ function DoGithubComments(repo_name, comment_id)
 
 
 
-Lisence: GNU/GPL V2.0 
+Licence: GNU/GPL V2.0 
