@@ -81,9 +81,9 @@ git push upstream gh-pages`
 		   return links;
 	   }
 	   /*end of function def for more comment pages*/
-	   
-   function ShowComments(repo_name, comment_id, page_id)
-   {
+	      
+	       function ShowComments(repo_name, comment_id, page_id)
+      {
 	   $(document).ready(function ()
        {
            $.getJSON("https://api.github.com/repos/" + repo_name + "/issues/" + comment_id, function(data) {
