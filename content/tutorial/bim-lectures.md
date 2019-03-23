@@ -1,6 +1,6 @@
 +++
 title = "BIM Lectures"
-
+ghcommentid = 1
 date = 2019-03-19T00:00:00
 lastmod = 2019-03-20T00:00:00
 

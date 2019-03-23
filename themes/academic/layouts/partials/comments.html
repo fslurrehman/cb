@@ -1,5 +1,19 @@
-{{ if and .Site.DisqusShortname (not (or .Site.Params.disable_comments .Params.disable_comments)) }}
-<section id="comments">
-  {{ template "_internal/disqus.html" . }}
+{{ if $.Params.ghcommentid}}
+<section id="gh-comments">
+    <br/><br/>
+    <h6>COMMENTS</h6>
+    <div id="gh-comments-list"></div>
+	
+	<a href="javascript:void(0)" id="gh-load-comments" class="btn btn-outline-primary px-3 py-2" style="comments">Load more comments</a>
 </section>
-{{ end }}
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<!--script type="text/javascript" src="{{ .Site.BaseURL }}js/github-comments.js"></script> -->
+<script type="text/javascript" src="{{ .Site.BaseURL }}js/github-comments.js"></script>
+<script type="text/javascript">
+   DoGithubComments("fslurrehman/BIM-Lectures",{{ $.Params.ghcommentid }});
+   //DoGithubComments("dwilliamson/donw.io",{{ $.Params.ghcommentid }});
+   
+   
+</script>
+{{else}}
+{{end}}
