@@ -1,6 +1,6 @@
 # Welcome to the source code of http://civil.builders website.
 
-You can edit it to suit need. It is made in hugo static page engine with academic theme. Download this repo and use hugo to update this site as per your requirements 
+You can edit it to suit your needs. It is made in hugo static page engine with academic theme. Download this repo and use hugo to update this site as per your requirements 
 or to continue this site from your repo and domain name. Following are some guidelines for publishing hugo sites:
 
 
