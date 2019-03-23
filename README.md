@@ -1,15 +1,16 @@
 # Welcome to the source code of http://civil.builders website.
 
-Following guide will show how to reproduce my website. You can edit it with your own need. It is made in hugo static page engine with academic theme. Go through following steps to reproduce this website:
+You can edit it with your own need. It is made in hugo static page engine with academic theme. Download this repo and use hugo to update this site as per your requirements or to continue this site from your repo and domain name. Following are some guide for publishing hugo sites:
+
 
 ## Hugo
 
 Steps for windows:
-Install scoop in powershell then install hugo as:
-to install hugo:
- scoop install hugo
-to update hugo:
- scoop update hugo
+01. Install scoop in powershell 
+02. Then install hugo as using:
+   `scoop install hugo`
+03. To update hugo:
+   `scoop update hugo`
 
  
  
@@ -63,7 +64,7 @@ To publish:
 
 
 ## Adding user comments feature to hugo
-Following steps are taken from `http://donw.io/post/github-comments/`
+Following steps are taken from http://donw.io/post/github-comments/
 01. Add in the begining of your hugo post: `ghcommentid = 1`
 02. Backup existing comments.html and add comments.html to layouts/partials/ inside theme folder. You can copy the required file from mentioned path. Following is the code of comments.html:
    ```html
